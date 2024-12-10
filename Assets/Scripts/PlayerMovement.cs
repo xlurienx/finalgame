@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -41,6 +42,20 @@ public class PlayerMovement : MonoBehaviour
         {
             Air = false;
             speed = 5;
+        }
+    }
+
+        private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Win"))
+        {
+         Debug.Log("WIN!!!");
+        SceneManager.LoadScene(1);
+        }
+
+        if (other.gameObject.CompareTag("Death"))
+        {
+        SceneManager.LoadScene(0);
         }
     }
 
