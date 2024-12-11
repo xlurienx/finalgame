@@ -7113,16 +7113,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930295093}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.41283295, w: 0.91080683}
-  m_LocalPosition: {x: 114.57861, y: 9.91382, z: 2.1268835}
-  m_LocalScale: {x: 0.34335998, y: 1.84915, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1770867758}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -48.766}
---- !u!1 &1933287421
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7375,9 +7365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946539551}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.7034855, y: -7.3261805, z: 2.1268835}
-  m_LocalScale: {x: 43.31613, y: 0.7806967, z: 1}
+
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1770867758}
@@ -7517,7 +7505,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 488719599233603945, guid: ad9d4405b87f54d7da789d82cac1c878, type: 3}
   m_PrefabInstance: {fileID: 6772791328823983262}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1994766573
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7647,7 +7634,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2100335591
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7934,6 +7920,7 @@ SceneRoots:
   - {fileID: 5712572033762233023}
   - {fileID: 6772791328823983262}
   - {fileID: 420473586}
+  - {fileID: 805547762}
   - {fileID: 985047513}
   - {fileID: 1633541873}
   - {fileID: 1770867758}
